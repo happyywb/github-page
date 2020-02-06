@@ -89,7 +89,7 @@ $("#btn_submit").on("click", () => {
                 series: [{
                     name: '分数',
                     type: 'bar',
-                    data: [parseInt(data.faces[0].attributes.beauty.male_score + 50), parseInt(data.faces[0].attributes.beauty.female_score + 50), 100],
+                    data: [parseInt(data.faces[0].attributes.beauty.male_score + 20), parseInt(data.faces[0].attributes.beauty.female_score + 20), 100],
                     barMaxWidth: "50px",
                     label: {
                         show: true
